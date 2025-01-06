@@ -1,0 +1,53 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 15px;
+    margin-bottom: 25px;
+    background-color: var(--Blanc);
+}
+.img__card{
+    height: auto;
+    width: 100%;
+}
+.title__card{
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    color: var(--Noir);
+    font-size: var(--h2);
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+.text__card{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: var(--Noir);
+    font-size: var(--b2);
+    margin: 0px 10px;
+    margin-bottom: 15px;
+}
+.btn__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Saumon);
+    color: var(--Noir);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; 
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "acumin-pro", sans-serif;
+    font-size: var(--button);
+    font-weight: 700;
+}
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.underline__card{
+    background-image: linear-gradient(120deg, var(--Bleuclair) 0%,var(--Bleuclair) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+}
