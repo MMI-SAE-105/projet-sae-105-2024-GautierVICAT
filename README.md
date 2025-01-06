@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : VICAT
+- PRÉNOM : GAUTIER
+- GROUPE : C2
+- URL du site : https://projet2024-gautiervicat.netlify.app/
+- URL FIGMA : https://www.figma.com/design/YY1Hno7T9mIwFkouiNtqF0/Maquettes-projet-individuel-%E2%80%94-Gautier-VICAT?node-id=1-3&t=Qk4TqY2e4tQD191M-1
