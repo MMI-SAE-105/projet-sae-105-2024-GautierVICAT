@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://use.typekit.net/lud8nze.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a class="site__logo" href="/fr/index.html"><img src="/assets/icons/logo.svg" alt="Logo du site"></a>
+        <div class="dropdown-container dropdown-langue">
+          <span class="text">Languages</span>
+          <span class="arrow-down"></span>
+          <div class="dropdown-content">
+            <ul class="items">
+              <li><a href="/en/pages/about.html">En</a></li>
+              <li><a href="/fr/pages/about.html">Fr</a></li>
+            </ul>
+          </div>
+        </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">≡</button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/dai.html">The IAD</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/johnq.html">John Q</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/cronenberg.html">David Cronenberg</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/rythme.html">Rythme cardiaque in book</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/musique.html">Heartbeats</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/glossaire.html">Glossary</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/en/pages/about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>About Pulse</h1>
+        <div class="article">
+            <img class="article__img" loading="lazy" src="/assets/img/About.webp" alt="Logo of Pulse">
+            <p class="article__caption">Logo of Pulse</p>
+        </div>
+        <p class="article__text">Hello, I am Gautier Vicat, and I am in my first year of a Bachelor's degree in Multimedia and Internet (BUT MMI) in Montbéliard. Pulse is the result of a project themed “Prehistory of the Future!” This site showcases various artistic works such as films, books, and music, all centered around the same subject defined by the quote presented on the homepage. For my site, the initial theme is the Implantable Cardioverter Defibrillators (ICDs) and the concepts of life and death related to the human heart. I have approached this theme to discuss different perspectives on the challenges that medicine faced a few years ago in effectively distributing appropriate care. I specifically highlighted the evolution of ICDs.</p>
+        <p class="article__text">If you would like to contact me, you can do so via the Contact Us section.</p>
+        <section class="form__section">
+            <h2 class="article__title">Contact us</h2>
+            <form class="form" action="#" method="POST">
+                <label class="form__labels" for="nom_prenom">Name</label>
+                <input class="form__inputs" type="text" id="nom_prenom" name="nom_prenom" placeholder="Name" required>
+                <label class="form__labels" for="contact">Email Adress/Phone number</label>
+                <input class="form__inputs" type="text" id="contact" name="contact" placeholder="Email Adress/Phone number" required>
+                <label class="form__labels" for="sujet">Subject of the message</label>
+                <input class="form__inputs" type="text" id="sujet" name="sujet" placeholder="Subject of the message" required>
+                <label class="form__labels" for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                <button class="form__button" type="submit">> Send</button>
+            </form>
+            <div class="form__footer">
+                <a class="mailto__form" href="mailto:vicat.gautier@gmail.com">vicat.gautier@gmail.com</a>
+                <ul class="icons--list__form">
+                    <li class="icons--items__form"><img class="icons--img__form" src="/assets/icons/InstaBleu.svg" alt="logo Instagram"></li>
+                    <li class="icons--items__form"><img class="icons--img__form" src="/assets/icons/TwitBleu.svg" alt="logo Twitter"></li>
+                    <li class="icons--items__form"><img class="icons--img__form" src="/assets/icons/LinkBleu.svg" alt="logo Linkedin"></li>
+                </ul>
+            </div>
+        </section>
+        <div class="card">
+            <h2 class="title__card"><span class="underline__card">Discover</span> other projects</h2>
+            <p class="text__card">Explore the list of other exciting projects completed in my class.</p>
+            <div class="card-footer">
+              <a class="btn__card" href="/fr/pages/others.html">> See projects</a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <div>
+          <div class="nav__footer">
+              <section>
+                  <h3 class="title__footer">Navigation </h3>
+                  <ul class="list__footer">
+                      <li class="items__footer"><a class="links__footer" href="/en/pages/about.html">Contact us</a></li>
+                      <li class="items__footer"><a class="links__footer" href="/en/pages/about.html">About</a></li>
+                      <li class="items__footer"><a class="links__footer" href="/en/pages/others.html">Others project</a></li>
+                  </ul>
+              </section>
+              <a href="/en/index.html"><img class="img__footer" src="/assets/img/Logowhite.webp" alt="Logo fond blanc"></a>
+          </div>
+          <div>
+              <h3 class="title__footer">Legal notice</h3>
+              <p class="text__footer">Project completed in 2024 as part of a pedagogical exercise in the <a class="link--text__footer" href="https://blogdummi.fr/">MMI department of Montbéliard.</a></p>
+          </div>
+      </div>
+      <div class="icons__footer">
+          <div>
+              <a class="mailto__footer" href="mailto:vicat.gautier@gmail.com">vicat.gautier@gmail.com</a>
+              <ul class="icons--list__footer">
+                  <li class="icons--items__footer"><img class="icons--img__footer" src="/assets/icons/InstaBlanc.svg" alt="logo Instagram"></li>
+                  <li class="icons--items__footer"><img class="icons--img__footer" src="/assets/icons/TwitBlanc.svg" alt="logo Twitter"></li>
+                  <li class="icons--items__footer"><img class="icons--img__footer" src="/assets/icons/LinkBlanc.svg" alt="logo Linkedin"></li>
+              </ul>
+          </div>
+          <img class="MMI__footer" src="/assets/icons/mmi_logo_quadri_white1.svg" alt="Logo MMI">
+      </div>
+  </footer>
+</body>
+</html>
