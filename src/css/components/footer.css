@@ -64,3 +64,6 @@
     width: 100px;
     height: 100px;
 }
+.list__footer li{
+    margin: 10px 0;
+}

@@ -1,0 +1,23 @@
+.livres{
+    margin: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--Blanc);
+}
+.livres a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Saumon);
+    color: var(--Noir);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none; 
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "acumin-pro", sans-serif;
+    font-size: var(--button);
+    font-weight: 700;
+}
