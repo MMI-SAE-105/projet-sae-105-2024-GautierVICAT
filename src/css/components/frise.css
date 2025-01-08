@@ -1,0 +1,45 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--Bleuclair);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline__item {
+    background: var(--Blanc);
+    border: 2px solid var(--Saumon);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.timeline__item-title {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    color: var(--Noir);
+    font-size: var(--h2);
+}
+
+.timeline__item-text {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: var(--Noir);
+    font-size: var(--b2);
+}
+
+.timeline__connector {
+    width: 5px;
+    background: var(--Saumon);
+    height: 20px;
+}
