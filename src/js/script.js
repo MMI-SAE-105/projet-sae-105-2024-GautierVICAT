@@ -9,3 +9,4 @@ toggle.addEventListener("click", () => {
     toggle.ariaExpanded = isClosed;
     document.body.classList.toggle("menu-open", isClosed);
 });
+
